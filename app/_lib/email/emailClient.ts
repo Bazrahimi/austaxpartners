@@ -5,8 +5,8 @@ import { ORG_PROFILE } from "../org/profile";
 
 export const emailClient = new Resend(serverEnv.resendApiKey);
 
-const kateTechEmail = "<web@katebtech.com.au>";
+const kateTechEmail = "<handler@katebtech.com.au>";
 
-export const FROM_EMAIL = `${ORG_PROFILE.orgName} ${kateTechEmail}`;
+export const FROM_EMAIL = `Kateb Tech ${kateTechEmail}`;
 export const WEB_ENQUIRY = `Web Enquiry ${kateTechEmail}`;
 export const ORG_EMAIL = ORG_PROFILE.email;

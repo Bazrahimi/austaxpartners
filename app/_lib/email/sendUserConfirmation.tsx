@@ -14,7 +14,7 @@ export const sendUserConfirmationEmail = async (data: Enquiry) => {
     from: FROM_EMAIL,
     to: [data.email],
     replyTo: ORG_EMAIL,
-    subject: `We’ve received your enquiry – ${data.fullName}`,
+    subject: `Your enquiry is sent to – ${data.fullName}`,
     react: <NewEnquiry data={data} />,
   });
 };
