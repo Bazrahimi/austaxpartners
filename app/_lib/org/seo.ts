@@ -1,0 +1,62 @@
+export const ORG_SEO = {
+  defaultKeywords: [
+    "Excel Render Pty Ltd",
+    "Rendering Services",
+    "Solid Plastering",
+    "Cladding",
+    "External Cladding Systems",
+    "Render & Acrylic Coatings",
+    "Texture Coating",
+    "Foam Board Cladding",
+    "Hebel Rendering",
+    "Cladding Replacement",
+  ] as const,
+
+  homeKeywords: [
+    "Excel Render Pty Ltd",
+    "Rendering Services Melbourne",
+    "Solid Plastering Melbourne",
+    "External Cladding Systems",
+    "Render & Acrylic Coatings",
+    "Texture Coating",
+    "Foam Board",
+    "Hebel",
+    "Cladding Replacement Projects",
+    "Residential and Commercial Rendering",
+  ] as const,
+
+  aboutKeywords: [
+    "Excel Render Pty Ltd",
+    "Rendering Company Melbourne",
+    "Solid Plastering",
+    "Cladding Specialists",
+    "Render & Acrylic Coatings",
+    "External Cladding Systems",
+    "Hebel Rendering",
+    "Texture Coating",
+  ] as const,
+
+  contactKeywords: [
+    "Rendering Quote",
+    "Free Rendering Quote",
+    "Solid Plastering Quote",
+    "Cladding Quote",
+    "External Cladding Systems",
+    "Render & Acrylic Coatings",
+    "Cladding Replacement Quote",
+    "South East Melbourne Rendering",
+  ] as const,
+
+  serviceBaseKeywords: [
+    "Rendering",
+    "Solid Plastering",
+    "Cladding",
+    "External Cladding Systems",
+    "Render & Acrylic Coatings",
+    "Texture Coating",
+    "Foam Board",
+    "Hebel",
+    "Cladding Replacement",
+    "Melbourne Rendering Services",
+  ] as const,
+} as const;
