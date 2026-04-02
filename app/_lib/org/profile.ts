@@ -6,15 +6,15 @@ import { ORG_INDUSTRY_SECTORS } from "./serviceArea";
 
 const ORG_DOMAIN = "austaxpartners.com.au" as const;
 const orgName = "Austax Partners Advisory";
-const appName = "austaxpartners";
+// const appName = "austaxpartners";
 
 export const getBaseUrl = (): string => {
   if (process.env.NODE_ENV === "development") {
     return "http://localhost:3000";
   }
 
-  return `https://${appName}.vercel.app`;
-  // return `https://${ORG_DOMAIN}`;
+  // return `https://${appName}.vercel.app`;
+  return `https://${ORG_DOMAIN}`;
 };
 
 export const ORG_PROFILE = {
