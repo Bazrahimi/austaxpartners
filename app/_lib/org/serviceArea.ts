@@ -1,8 +1,10 @@
+// app/_lib/org/serviceArea.ts
+
 export const ORG_INDUSTRY_SECTORS = {
   BUILDING: {
     industry: "Building and Construction",
     defaultScope: "metro",
-    Sectors: {
+    sectors: {
       painting: "Painting and Decorating",
       builder: "Registered Builders",
       rendering: "Solid Plastering and Rendering",
@@ -25,6 +27,7 @@ export const ORG_INDUSTRY_SECTORS = {
       ngo: "Non profit organisation",
     },
   },
+
   TECHNOLOGY: {
     industry: "technology",
     defaultScope: "state",
@@ -39,42 +42,21 @@ export type CoverageScope =
   (typeof ORG_INDUSTRY_SECTORS)[OrgIndustrySectorKey]["defaultScope"];
 
 export type ServiceArea = {
-  scope: CoverageScope; // "metro" | "state" | "national"
-  primaryRegion: string; // "South East Melbourne"
-  state: string; // "VIC"
-  country: string; // "Australia"
-  featuredSuburbs?: string[]; // for SEO pages/sections
-  note?: string; // short marketing sentence
+  scope: CoverageScope;
+  primaryRegion: string;
+  state: string;
+  country: string;
+  featuredSuburbs?: string[];
+  note?: string;
 };
 
 export const SERVICE_AREA: ServiceArea = {
-  scope: ORG_INDUSTRY_SECTORS.BUILDING.defaultScope, // or derive from ORG_PROFILE.orgSector
-  primaryRegion: "South East Melbourne",
-  state: "VIC",
+  scope: ORG_INDUSTRY_SECTORS.PROFESSIONAL.defaultScope,
+  primaryRegion: "Australia",
+  state: "National",
   country: "Australia",
-  featuredSuburbs: [
-    "Cranbourne",
-    "Cranbourne North",
-    "Narre Warren",
-    "Berwick",
-    "Dandenong",
-    "Noble Park",
-    "Springvale",
-    "Keysborough",
-    "Pakenham",
-    "Officer",
-    "Narre Warren South",
-    "Narre Warren North",
-    "Hallam",
-    "Hampton Park",
-    "Harkaway",
-    "Clyde North",
-    "Clyde",
-    "Lyndhurst",
-    "Beaconsfield",
-    "Doveton",
-  ],
-  note: "We provide tax, accounting, and business advisory services for individuals and businesses across Victoria and Australia.",
+  featuredSuburbs: [],
+  note: "We provide tax, accounting, bookkeeping, and business advisory services for individuals and businesses across Australia.",
 };
 
 export const scopeLabel = (scope: string) => {
