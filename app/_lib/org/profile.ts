@@ -4,9 +4,9 @@ import { CtaKey } from "../content/cta";
 import { OtherLanguageKey } from "../languages/multiculturalStatement";
 import { ORG_INDUSTRY_SECTORS } from "./serviceArea";
 
-const ORG_DOMAIN = "excelrendering.com.au" as const;
-const orgName = "Excel Render Pty Ltd";
-const appName = "excelrender";
+const ORG_DOMAIN = "austaxpartners.com.au" as const;
+const orgName = "Austax Partners Advisory";
+const appName = "austaxpartners";
 
 export const getBaseUrl = (): string => {
   if (process.env.NODE_ENV === "development") {
@@ -20,22 +20,22 @@ export const getBaseUrl = (): string => {
 export const ORG_PROFILE = {
   orgName: orgName,
   orgNameFarsi: "",
-  industry: ORG_INDUSTRY_SECTORS.BUILDING.industry,
-  subSector: ORG_INDUSTRY_SECTORS.BUILDING.Sectors.rendering,
+  industry: ORG_INDUSTRY_SECTORS.PROFESSIONAL.industry,
+  subSector: ORG_INDUSTRY_SECTORS.PROFESSIONAL.sectors.accountant,
   description:
-    "Professional rendering services across Victoria for residential and commercial projects.",
+    "Professional tax, accounting, and business advisory services for individuals, sole traders, and businesses across Victoria.",
   // languages: ["EN", "HZ", "FA"] as const satisfies readonly LanguageKey[],
   otherLangKeys: [] as OtherLanguageKey[],
   domain: ORG_DOMAIN,
-  email: "excellrender@hotmail.com",
-  phone: "0432 477 389",
-  address: "5-6 Carolyn Close, Narre Warren North, VIC 3804",
-  abn: "78 608 790 905",
+  email: "jankalim000@gmail.com",
+  phone: "0423 466 236",
+  address: "Level 2, 311 Lonsdale Street, Dandenong VIC 3175",
+  abn: "92 185 396 311",
   cta: "freeQuote" as CtaKey,
 
   // Brand colours
-  primaryColor: "#0ea5e9", // extra bright blue
-  secondaryColor: "#334155", // deep slate
+  primaryColor: "#2f7d32",
+  secondaryColor: "#6b7280",
 
-  textOnSecondary: "text-gray-50",
+  textOnSecondary: "text-white",
 } as const;

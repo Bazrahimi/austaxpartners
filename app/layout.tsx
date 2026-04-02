@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(getBaseUrl()),
   title: {
     default: ROOT_SEO.siteName,
-    template: `%s | ${ROOT_SEO.siteName}`,
+    template: `%s`,
   },
   description: ROOT_SEO.siteName,
   manifest: ROOT_SEO.manifestPath,

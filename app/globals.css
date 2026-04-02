@@ -15,15 +15,15 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
-  /* Brand colours */
-  --color-org-primary-light: #38bdf8;
-  --color-org-primary-main: #0ea5e9;
-  --color-org-primary-dark: #0369a1;
+  /* Primary - Austax Green */
+  --color-org-primary-light: #7bc043;
+  --color-org-primary-main: #2f7d32;
+  --color-org-primary-dark: #0b4f2c;
 
-  /* Secondary - Deep Slate */
-  --color-org-secondary-light: #64748b;
-  --color-org-secondary-main: #334155;
-  --color-org-secondary-dark: #1e293b;
+  /* Secondary - Logo Gray */
+  --color-org-secondary-light: #9ca3af;
+  --color-org-secondary-main: #6b7280;
+  --color-org-secondary-dark: #4b5563;
 }
 
 /* @media (prefers-color-scheme: dark) {

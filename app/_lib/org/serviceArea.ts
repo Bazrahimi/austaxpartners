@@ -74,7 +74,7 @@ export const SERVICE_AREA: ServiceArea = {
     "Beaconsfield",
     "Doveton",
   ],
-  note: "We provide commercial and residential painting services across Melbourne, with a focus on the South Eastern suburbs.",
+  note: "We provide tax, accounting, and business advisory services for individuals and businesses across Victoria and Australia.",
 };
 
 export const scopeLabel = (scope: string) => {
