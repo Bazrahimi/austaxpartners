@@ -4,14 +4,14 @@ import { publicAssets } from "../_lib/org/publicAssets";
 
 const partners = [
   {
-    name: "CPA",
-    src: publicAssets.partners.cpa,
-    alt: "CPA logo",
+    name: "CMA",
+    src: publicAssets.partners.cma,
+    alt: "CMA logo",
   },
   {
-    name: "NTAA",
-    src: publicAssets.partners.ntaa,
-    alt: "NTAA logo",
+    name: "IPA",
+    src: publicAssets.partners.ipa,
+    alt: "IPA logo",
   },
   {
     name: "Tax Practitioners Board",

@@ -12,24 +12,24 @@ export const OPENING_HOURS: OpeningHours = {
 
 export const CONTACT_FAQS: readonly FAQItem[] = [
   {
-    q: "What rendering and cladding services do you provide?",
-    a: "We provide residential and commercial rendering services, including solid plastering, cement rendering, acrylic rendering, texture coating, external cladding systems, foam board applications, Hebel finishes, and cladding replacement projects across Victoria.",
+    q: "What tax and accounting services do you provide?",
+    a: "We provide tax, accounting, bookkeeping, BAS, GST, and business advisory services for individuals, sole traders, companies, and other businesses across Australia.",
   },
   {
-    q: "Do you work on both residential and commercial projects?",
-    a: "Yes. We work across residential and commercial projects, including homes, apartments, townhouse developments, renovations, remedial facade works, and commercial buildings.",
+    q: "Do you help both individuals and businesses?",
+    a: "Yes. We assist individual clients with tax returns and general tax support, and we also help sole traders, small businesses, and companies with accounting, bookkeeping, BAS, GST, and ongoing business advisory services.",
   },
   {
-    q: "Can I get a free quote?",
-    a: "Yes. Send us your details through the contact form with a short description of the job, and we’ll get back to you about a free quote.",
+    q: "Can I get an initial consultation?",
+    a: "Yes. Send us your details through the contact form with a short description of what you need, and we’ll get back to you to discuss your tax, accounting, or business enquiry.",
   },
   {
-    q: "Do you install cladding and acrylic coating systems?",
-    a: "Yes. We provide external cladding systems, acrylic coating finishes, texture coatings, foam board systems, and Hebel-compatible render finishes for a wide range of projects.",
+    q: "Do you help with BAS, GST, and bookkeeping?",
+    a: "Yes. We provide bookkeeping support, BAS preparation, GST assistance, and ongoing record-keeping support to help businesses stay organised and meet their reporting obligations.",
   },
   {
-    q: "Do you take on new builds and cladding replacement work?",
-    a: "Yes. We work on new build projects as well as cladding replacement, facade upgrades, repair works, and general surface renewal for existing residential and commercial properties.",
+    q: "Do you help with tax returns and ongoing business support?",
+    a: "Yes. We assist with individual and business tax returns as well as ongoing accounting, compliance, and advisory support for businesses that need practical and reliable financial assistance.",
   },
 ] as const;
 

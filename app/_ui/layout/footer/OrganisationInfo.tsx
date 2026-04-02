@@ -17,6 +17,10 @@ const OrganisationInfo = ({
         {ORG_PROFILE.description}
       </P>
       <P className="mt-2 text-gray-100 " size="sm">
+        <span className="font-medium">Tax Agent #:</span>{" "}
+        {ORG_PROFILE.taxAgentNumber}
+      </P>
+      <P className="mt-2 text-gray-100 " size="sm">
         <span className="font-medium">ABN:</span> {ORG_PROFILE.abn}
       </P>
       <P className="mt-2 text-gray-100" size="sm">

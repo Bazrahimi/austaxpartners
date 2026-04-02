@@ -12,9 +12,9 @@ export const publicAssets = {
     placeholder: "images/team/avatar.svg",
   },
     partners: {
-    cpa: "/images/partners/cpa.png",
-    ntaa: "/images/partners/NTAA.png",
-    taxPractitionersBoard: "/images/partners/Tax-Practitioners-Board.jpg",
+    cma: "/images/partners/CMA.jpeg",
+    ipa: "/images/partners/IPA.png",
+    taxPractitionersBoard: "/images/partners/Tax-Practitioners-Board.png",
     asicRegisteredAgent: "/images/partners/Asic-registered-agent-logo.png",
     xero: "/images/partners/xero-logo.jpg",
   },

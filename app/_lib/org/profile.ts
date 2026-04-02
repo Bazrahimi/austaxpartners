@@ -20,6 +20,7 @@ export const getBaseUrl = (): string => {
 export const ORG_PROFILE = {
   orgName: orgName,
   orgNameFarsi: "",
+  taxAgentNumber: "26342820",
   industry: ORG_INDUSTRY_SECTORS.PROFESSIONAL.industry,
   subSector: ORG_INDUSTRY_SECTORS.PROFESSIONAL.sectors.accountant,
   description:
