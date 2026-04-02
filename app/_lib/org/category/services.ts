@@ -1,53 +1,53 @@
 import type { ServicesPage } from "../definitions";
 import { cldImages } from "../publicAssets";
 
-import { claddingReplacement } from "./subCategories/claddingReplacement";
-import { externalCladdingSystems } from "./subCategories/externalCladdingSystems";
-import { renderAcrylicCoatings } from "./subCategories/renderAcrylicCoatings";
-import { solidPlastering } from "./subCategories/solidPlastering";
+import { accountingBookkeeping } from "./subCategories/accountingBookkeeping";
+import { businessAdvisory } from "./subCategories/businessAdvisory";
+import { taxCompliance } from "./subCategories/taxCompliance";
+import { businessPersonalFinance } from "./subCategories/businessPersonalFinance";
 
 export const SERVICES_PAGE = {
-  solidPlastering: {
-    slug: "solid-plastering-services-narre-warren-north",
-    label: "Solid Plastering Services",
+  accountingBookkeeping: {
+    slug: "accounting-and-bookkeeping-services-australia",
+    label: "Accounting & Bookkeeping",
     image: [cldImages.services.subCategory1],
-    labelFarsi: "خدمات گچ‌کاری و پلاستر",
+    labelFarsi: "حسابداری و دفترداری",
     description: [
-      "Professional solid plastering services for residential and commercial properties, including internal and external surfaces, feature finishes, and durable render-ready applications.",
+      "Professional accounting and bookkeeping services for sole traders, companies, and growing businesses across Australia, helping keep records accurate, organised, and up to date.",
     ] as const,
-    subcategories: solidPlastering,
+    subcategories: accountingBookkeeping,
   },
 
-  renderAcrylicCoatings: {
-    slug: "render-and-acrylic-coatings-narre-warren-north",
-    label: "Render & Acrylic Coatings",
+  businessAdvisory: {
+    slug: "business-advisory-services-australia",
+    label: "Business Advisory",
     image: [cldImages.services.subCategory2],
-    labelFarsi: "رندر و پوشش‌های اکریلیک",
+    labelFarsi: "مشاوره کسب‌وکار",
     description: [
-      "Render and acrylic coating systems for homes, developments, and commercial buildings, designed to improve appearance, weather resistance, and long-term surface protection.",
+      "Practical business advisory services for startups, small businesses, and established operators seeking better structure, clearer reporting, and more informed financial decision-making.",
     ] as const,
-    subcategories: renderAcrylicCoatings,
+    subcategories: businessAdvisory,
   },
 
-  externalCladdingSystems: {
-    slug: "external-cladding-systems-narre-warren-north",
-    label: "External Cladding Systems",
+  taxCompliance: {
+    slug: "tax-services-australia",
+    label: "Tax Services",
     image: [cldImages.services.subCategory3],
-    labelFarsi: "سیستم‌های کلدینگ خارجی",
+    labelFarsi: "خدمات مالیاتی",
     description: [
-      "External cladding system installation for modern residential and commercial projects, including lightweight facade solutions, architectural finishes, and compliant exterior upgrades.",
+      "Reliable tax services for individuals and businesses across Australia, including tax returns, BAS, GST, compliance support, and ongoing tax planning assistance.",
     ] as const,
-    subcategories: externalCladdingSystems,
+    subcategories: taxCompliance,
   },
 
-  claddingReplacement: {
-    slug: "cladding-replacement-projects-narre-warren-north",
-    label: "Cladding Replacement Projects",
+  businessPersonalFinance: {
+    slug: "business-and-personal-finance-services-australia",
+    label: "Business & Personal Finance",
     image: [cldImages.services.subCategory4],
-    labelFarsi: "پروژه‌های تعویض کلدینگ",
+    labelFarsi: "مالی کسب‌وکار و شخصی",
     description: [
-      "Cladding replacement services for ageing, damaged, or non-compliant external wall systems, with a focus on safe removal, updated installation, and improved building presentation.",
+      "Business and personal finance support designed to improve financial visibility, cash-flow awareness, budgeting confidence, and smarter financial planning.",
     ] as const,
-    subcategories: claddingReplacement,
+    subcategories: businessPersonalFinance,
   },
 } as const satisfies Record<string, ServicesPage>;

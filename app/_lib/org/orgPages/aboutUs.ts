@@ -7,18 +7,18 @@ export const ABOUT_TEAM: TeamSection = {
   id: "team",
   title: "Our Team",
   professionalTitles: [
-    "Rendering Contractors",
-    "Solid Plastering Specialists",
-    "Cladding Installation Professionals",
-    "Residential and Commercial Facade Finishes",
+    "Registered Tax Agent",
+    "Accounting and Bookkeeping Professionals",
+    "Business Advisory Support",
+    "Tax and Compliance Services",
   ],
-  intro: `${ORG_PROFILE.orgName} is backed by practical industry experience and a strong commitment to quality workmanship across residential and commercial rendering and cladding projects in Victoria.`,
+  intro: `${ORG_PROFILE.orgName} is supported by practical experience in tax, accounting, bookkeeping, and business advisory services, with a commitment to helping individuals and businesses across Australia with clear, reliable, and professional financial support.`,
   members: [
     {
-      name: "Essa Rahimi",
-      role: "Director",
+      name: "Kalim Jan",
+      role: "Registered Tax Agent",
       image: publicAssets.team.placeholder,
-      bio: "Essa Rahimi is the Director of Excel Render Pty Ltd and brings practical experience across rendering, solid plastering, external cladding systems, acrylic coatings, texture finishes, and facade improvement works. He is committed to delivering reliable service, quality workmanship, and professional results across residential and commercial projects.",
+      bio: "Kalim Jan is a Registered Tax Agent at Austax Partners Advisory and is committed to providing reliable tax, accounting, bookkeeping, and business advisory services for individuals, sole traders, and businesses. He focuses on clear communication, practical support, and professional service to help clients manage their tax obligations, financial records, and business needs with confidence.",
     },
   ],
 } as const;
@@ -40,8 +40,8 @@ export const ABOUT_INTRODUCTION: TextSection = {
   id: "introduction",
   title: `About ${ORG_PROFILE.orgName}`,
   items: [
-    `${ORG_PROFILE.orgName} provides professional rendering, solid plastering, external cladding systems, Hebel finishing, foam board applications, acrylic coatings, and texture coating services across Victoria for residential and commercial projects. We work across new builds, houses, apartments, developments, renovation jobs, and remedial facade works.`,
-    "We understand that quality exterior finishes depend on proper preparation, skilled workmanship, compatible systems, and attention to detail. Our goal is to deliver clean, durable, and professional results that improve appearance, weather protection, and long-term value.",
+    `${ORG_PROFILE.orgName} provides professional tax, accounting, bookkeeping, BAS, GST, and business advisory services for individuals, sole traders, companies, and other businesses across Australia. We assist with tax returns, financial records, ongoing compliance, reporting support, and practical financial guidance.`,
+    "We understand that clients value accurate work, timely service, clear advice, and dependable support. Our goal is to provide practical and professional accounting services that help clients stay organised, meet their obligations, and make informed financial decisions.",
   ],
 } as const;
 
@@ -50,21 +50,21 @@ export const ABOUT_SECTIONS: readonly TextSection[] = [
     id: "purpose",
     title: "Our Purpose",
     items: [
-      "Our purpose is to provide dependable rendering and cladding services that improve the finish, durability, protection, and presentation of residential and commercial properties.",
+      "Our purpose is to provide dependable tax, accounting, and advisory services that help individuals and businesses stay compliant, financially organised, and better supported in their decision-making.",
     ],
   },
   {
     id: "vision",
     title: "Our Vision",
     items: [
-      "We aim to be a trusted name in Victoria for rendering, solid plastering, cladding, and facade finishing services, known for honest service, strong workmanship, and reliable project delivery.",
+      "We aim to be a trusted name in Australia for tax, accounting, bookkeeping, and business advisory services, known for professionalism, accuracy, and reliable client support.",
     ],
   },
   {
     id: "what-we-do",
     title: "What We Do",
     items: [
-      "We provide solid plastering, cement rendering, acrylic rendering, texture coating, Hebel and foam board systems, external cladding installation, cladding replacement, surface preparation, and facade repair works for homes, apartments, developments, and commercial sites.",
+      "We provide individual and business tax returns, bookkeeping, BAS and GST support, accounting services, financial reporting assistance, and practical business advisory services for clients across a range of industries and business structures.",
     ],
   },
   {
@@ -81,9 +81,9 @@ export const ABOUT_VALUES: ValuesSection = {
   title: "Our Values",
   icon: "check",
   items: [
-    "Delivering quality workmanship with attention to detail.",
-    "Being reliable, professional, and respectful on every site.",
-    "Using suitable systems, proper preparation, and practical methods for durable finishes.",
-    "Providing honest communication and dependable service from start to finish.",
+    "Providing accurate, professional, and dependable service.",
+    "Supporting clients with clear communication and practical guidance.",
+    "Helping individuals and businesses meet their tax and accounting obligations with confidence.",
+    "Building long-term trust through integrity, consistency, and respectful client service.",
   ],
 } as const;

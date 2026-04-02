@@ -1,6 +1,7 @@
 import { SERVICES_PAGE } from "@/app/_lib/org/category/services";
 import { ORG_PROFILE as op } from "../_lib/org/profile";
 import MultiLanguageCapacity from "../_ui/content/MultiLanguageCapacity";
+import Partners from "../_ui/Partners";
 
 import dynamic from "next/dynamic";
 import ServiceSection from "../_ui/services/ServicesSection";
@@ -42,7 +43,7 @@ export default function HomePage() {
           <ServiceSection service={service} />
         </Suspense>
       ))}
-
+      <Partners />
       <div>
         <ServiceArea />
       </div>

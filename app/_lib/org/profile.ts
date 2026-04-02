@@ -31,7 +31,7 @@ export const ORG_PROFILE = {
   phone: "0423 466 236",
   address: "Level 2, 311 Lonsdale Street, Dandenong VIC 3175",
   abn: "92 185 396 311",
-  cta: "freeQuote" as CtaKey,
+  cta: "freeConsultation" as CtaKey,
 
   // Brand colours
   primaryColor: "#2f7d32",

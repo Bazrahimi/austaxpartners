@@ -11,6 +11,13 @@ export const publicAssets = {
   team: {
     placeholder: "images/team/avatar.svg",
   },
+    partners: {
+    cpa: "/images/partners/cpa.png",
+    ntaa: "/images/partners/NTAA.png",
+    taxPractitionersBoard: "/images/partners/Tax-Practitioners-Board.jpg",
+    asicRegisteredAgent: "/images/partners/Asic-registered-agent-logo.png",
+    xero: "/images/partners/xero-logo.jpg",
+  },
 };
 
 export const cldImages = {
@@ -20,20 +27,20 @@ export const cldImages = {
   } as ImageMeta,
   services: {
     subCategory1: {
-      url: "v1774995125/business-f/building/rendering/rendering_multiple_house_qobxeo.png",
-      alt: "solid plastering duplex ",
+      url: "v1775100060/business-f/professional/accountant/accouting_and_bookkeeping_rgelok.png",
+      alt: "Accounting and Bookkeeping",
     } as ImageMeta,
     subCategory2: {
-      url: "v1774340276/business-f/building/rendering/exerior-view-house_egkk1f.png",
-      alt: "rendering and hebel finish work",
+      url: "v1775100571/business-f/professional/accountant/business_advisory_hlvndo.png",
+      alt: "Business advisory",
     } as ImageMeta,
     subCategory3: {
-      url: "v1774957222/business-f/building/rendering/renderfinish_wyzchj.png",
-      alt: "Patching walls",
+      url: "v1775100748/business-f/professional/accountant/tax_services_aoehva.png",
+      alt: "tax services",
     } as ImageMeta,
     subCategory4: {
-      url: "v1774956253/business-f/building/rendering/duplex_render_j7vkcb.png",
-      alt: "Decking and render and fence",
+      url: "v1775101001/business-f/professional/accountant/personal_finances_y4yctp.png",
+      alt: "Personal finances",
     } as ImageMeta,
   },
 };
