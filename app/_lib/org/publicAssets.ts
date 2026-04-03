@@ -9,10 +9,10 @@ export const publicAssets = {
     apple: "/apple-touch-icon.png",
   },
   team: {
-    placeholder: "images/team/avatar.svg",
+    placeholder: "/images/team/kalim.png",
   },
     partners: {
-    cma: "/images/partners/CMA.jpeg",
+    cma: "/images/partners/CMA-ANZ-Logo.avif",
     ipa: "/images/partners/IPA.png",
     taxPractitionersBoard: "/images/partners/Tax-Practitioners-Board.png",
     asicRegisteredAgent: "/images/partners/Asic-registered-agent-logo.png",

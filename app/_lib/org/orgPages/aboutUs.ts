@@ -16,7 +16,7 @@ export const ABOUT_TEAM: TeamSection = {
   members: [
     {
       name: "Kalim Jan",
-      role: "Registered Tax Agent",
+      role: `Registered Tax Agent (${ORG_PROFILE.taxAgentNumber})`,
       image: publicAssets.team.placeholder,
       bio: "Kalim Jan is a Registered Tax Agent at Austax Partners Advisory and is committed to providing reliable tax, accounting, bookkeeping, and business advisory services for individuals, sole traders, and businesses. He focuses on clear communication, practical support, and professional service to help clients manage their tax obligations, financial records, and business needs with confidence.",
     },

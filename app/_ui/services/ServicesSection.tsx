@@ -16,7 +16,7 @@ export default function ServiceSection({ service, className }: Props) {
   return (
     <section
       className={cn(
-        "rounded-3xl border border-slate-200shadow-sm backdrop-blur bg-org-primary-dark",
+        "rounded-3xl border border-slate-200shadow-sm backdrop-blur bg-org-primary-main",
         className,
       )}
     >
