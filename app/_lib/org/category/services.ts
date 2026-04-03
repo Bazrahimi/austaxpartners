@@ -8,7 +8,7 @@ import { businessPersonalFinance } from "./subCategories/businessPersonalFinance
 
 export const SERVICES_PAGE = {
   accountingBookkeeping: {
-    slug: "accounting-and-bookkeeping-services-australia",
+    slug: "accounting-and-bookkeeping-in-dandenong",
     label: "Accounting & Bookkeeping",
     image: [cldImages.services.subCategory1],
     labelFarsi: "حسابداری و دفترداری",
@@ -19,7 +19,7 @@ export const SERVICES_PAGE = {
   },
 
   businessAdvisory: {
-    slug: "business-advisory-services-australia",
+    slug: "business-advisory-in-dandenong",
     label: "Business Advisory",
     image: [cldImages.services.subCategory2],
     labelFarsi: "مشاوره کسب‌وکار",
@@ -30,7 +30,7 @@ export const SERVICES_PAGE = {
   },
 
   taxCompliance: {
-    slug: "tax-services-australia",
+    slug: "tax-services-in-dandenong",
     label: "Tax Services",
     image: [cldImages.services.subCategory3],
     labelFarsi: "خدمات مالیاتی",
@@ -41,7 +41,7 @@ export const SERVICES_PAGE = {
   },
 
   businessPersonalFinance: {
-    slug: "business-and-personal-finance-services-australia",
+    slug: "business-and-personal-finance-in-dandenong",
     label: "Business & Personal Finance",
     image: [cldImages.services.subCategory4],
     labelFarsi: "مالی کسب‌وکار و شخصی",
