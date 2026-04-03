@@ -168,6 +168,20 @@ export const SEO_PAGES = {
     ],
   }),
 
+  webmail: (): PageSeo => ({
+    canonicalPathname: PublicRoutes.webmail(),
+    title: `Webmail Login | ${op.orgName}`,
+    description: `Secure webmail access for ${op.orgName}. Sign in to your business email through Hostinger webmail.`,
+    keywords: [
+      op.orgName,
+      "Webmail Login",
+      "Business Email Login",
+      "Hostinger Webmail",
+      "Secure Email Access",
+    ],
+    noindex: true,
+  }),
+
   // Dynamic helper for services
   service: (input: {
     slug: string;

@@ -11,6 +11,7 @@ export type InputOption = string | { value: string; label?: string };
 
 export type ButtonVariant = "primary" | "secondary" | "danger" | "outline";
 export type ButtonSize = "xs" | "sm" | "md" | "lg";
+
 interface BaseButtonProps {
   children: React.ReactNode;
   icon?: React.ReactNode;
@@ -24,7 +25,9 @@ type ButtonAsButton = BaseButtonProps &
   Omit<React.ButtonHTMLAttributes<HTMLButtonElement>, "className"> & {
     as?: "button";
   };
+
 type ButtonAsLink = BaseButtonProps &
+  Omit<React.AnchorHTMLAttributes<HTMLAnchorElement>, "href" | "className"> &
   Omit<LinkProps, "href"> & {
     as: "link";
     href: LinkProps["href"];
@@ -83,6 +86,7 @@ export const Button = forwardRef<
 
   if (as === "link") {
     const { href, ...anchorRest } = rest as ButtonAsLink;
+
     return (
       <Link
         href={href}

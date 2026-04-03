@@ -1,26 +1,34 @@
+import { buildMetadata, SEO_PAGES } from "@/app/_lib/org/layoutAndSeo";
+import Button from "@/app/_ui/button/Button";
 import { Header } from "@/app/_ui/typography/Header";
 import { P } from "@/app/_ui/typography/paragraph";
+
+export const metadata = buildMetadata(SEO_PAGES.webmail());
 
 export default function WebmailPage() {
   return (
     <main className="mx-auto max-w-xl px-6 py-16">
-      <Header as="h1">Email Login</Header>
+      <div className="rounded-3xl border border-white/70 bg-white/90 p-8 text-center shadow-lg backdrop-blur">
+        <Header as="h1">Email Login</Header>
 
-      <P>
-        Access your business email securely through Hostinger webmail. Use your
-        full email address and password on the next page.
-      </P>
+        <P className="mt-4">
+          Access your business email securely through Hostinger webmail. Use
+          your full email address and password on the next page.
+        </P>
 
-      <div className="mt-6">
-        <a
-          href="https://mail.hostinger.com"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-flex items-center rounded-xl border px-4 py-2 text-sm font-medium hover:bg-gray-50"
-          aria-label="Open Hostinger webmail in a new tab"
-        >
-          Open Webmail
-        </a>
+        <div className="mt-8 flex justify-center">
+          <Button
+            as="link"
+            href="https://mail.hostinger.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            variant="secondary"
+            size="lg"
+            className="min-w-[220px]"
+          >
+            Open Webmail
+          </Button>
+        </div>
       </div>
     </main>
   );
