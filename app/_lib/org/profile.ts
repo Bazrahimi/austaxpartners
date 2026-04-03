@@ -28,7 +28,7 @@ export const ORG_PROFILE = {
   // languages: ["EN", "HZ", "FA"] as const satisfies readonly LanguageKey[],
   otherLangKeys: [] as OtherLanguageKey[],
   domain: ORG_DOMAIN,
-  email: "jankalim000@gmail.com",
+  email: `info@${ORG_DOMAIN}`,
   phone: "0423 466 236",
   address: "Level 2, 311 Lonsdale Street, Dandenong VIC 3175",
   abn: "92 185 396 311",

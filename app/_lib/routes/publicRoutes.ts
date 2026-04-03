@@ -10,6 +10,7 @@ export const PublicRoutes = {
   service: (slug: string) => `/services/${slug}`,
   languages: () => languages,
   otherLanguages: (lang: string) => `${languages}/${encodeURIComponent(lang)}`,
+  webmail: () => "/webmail"
 } as const;
 
 /** Service nav links */
@@ -38,3 +39,8 @@ export const SERVICES_LINKS = [
 
   ...getServiceCategoryLinks().map(({ href, label }) => ({ href, label })),
 ];
+
+
+export const ADMIN_LINKS = [
+   { href: PublicRoutes.webmail(), label: "Webmail" },
+]

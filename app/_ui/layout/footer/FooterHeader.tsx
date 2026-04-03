@@ -15,7 +15,7 @@ const FooterHeader = ({
       as="h4"
       size="sm"
       align="left"
-      className={cn(lightContent && "text-gray-500")}
+      className={cn(lightContent && "text-gray-950")}
     >
       {children}
     </Header>
